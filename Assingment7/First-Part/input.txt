@@ -1,0 +1,53 @@
+Sepehr register_driver 114144114 1274 TIE_striker 1990 blue
+Amir register_driver 114114114 1234 TIE_striker 1990 red
+admin login s3cret
+admin show_registration_requests
+admin accept_registration Sepehr
+admin accept_registration Amir
+Amir login 114114114
+Sepehr login 114144114
+Amir set_status available galaxy1,1
+Sepehr set_status available galaxy1,6
+MohammadReza register_passenger 114114114 09128612762
+MohammadReza login 114114114
+MohammadReza get_credit
+MohammadReza charge_account 30
+MohammadReza request_trip galaxy1,1 galaxy1,2 galaxy1,3 galaxy1,4 galaxy1,5
+Sepehr show_trip_requests
+Amir show_trip_requests
+Sepehr accept_trip_request MohammadReza
+Sepehr set_status available galaxy1,13
+MohammadReza trip_status
+Sepehr arrived
+MohammadReza trip_status
+MohammadReza get_credit
+Sepehr end_trip
+MohammadReza get_credit
+MohammadReza trip_status
+MohammadReza rate_driver 7
+admin set_time 1-0:2:2
+MohammadReza request_trip galaxy1,3 galaxy1,2 galaxy1,3 galaxy1,4 galaxy1,5
+Amir accept_trip_request MohammadReza
+Amir show_trip_requests
+MohammadReza trip_status
+Amir arrived
+MohammadReza trip_status
+MohammadReza get_credit
+Amir end_trip
+MohammadReza get_credit
+MohammadReza rate_driver 9
+admin set_time 2-1:2:2
+MohammadReza request_trip galaxy1,12 galaxy1,2 galaxy1,3 galaxy1,4 galaxy1,5
+Amir accept_trip_request MohammadReza
+Amir show_trip_requests
+MohammadReza trip_status
+Amir arrived
+MohammadReza trip_status
+MohammadReza get_credit
+Amir end_trip
+MohammadReza get_credit
+MohammadReza rate_driver 1
+admin set_time 3-23:59:58
+admin driver_report Amir 1-0:2:1 2-1:2:1
+admin passenger_report MohammadReza
+admin system_report 1-0:2:1 2-1:2:1
