@@ -84,9 +84,9 @@ class Node:
         elif(self.character=='$'):
             stack.pop()
         elif(self.character=='.'):
-            print ord(stack.pop())
+            print(ord(stack.pop()))
         elif(self.character==','):
-            print chr(stack.pop())
+            print(chr(stack.pop()))
         elif(self.character=='#'):
             skipNode=True
         elif(self.character=='&'):
