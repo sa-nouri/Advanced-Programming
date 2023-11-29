@@ -12,6 +12,7 @@
           "-stdlib=libc++",
           "-g",
           "-ggdb",
+          "-pedantic-errors",
           "${file}",
           "-o",
           "${fileDirname}/${fileBasenameNoExtension}"
