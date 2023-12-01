@@ -152,3 +152,4 @@ fabric.properties
 
 *.dSYM
 test/
+learncpp/output_exe/
