@@ -12,7 +12,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "/Users/salii/Documents/Projects/repos/Advanced-Programming/learncpp/output_exe/${fileDirname}/${fileBasenameNoExtension}"
+                "/Users/salii/Documents/Projects/repos/Advanced-Programming/learncpp/output_exe/${fileBasenameNoExtension}"
             ],
             "options": {
                 "cwd": "${fileDirname}"
