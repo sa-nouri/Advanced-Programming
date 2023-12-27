@@ -3,5 +3,8 @@
         "activityBar.background": "#0A351C",
         "titleBar.activeBackground": "#0E4A27",
         "titleBar.activeForeground": "#F2FCF6"
+    },
+    "files.associations": {
+        "iomanip": "cpp"
     }
 }
