@@ -24,16 +24,15 @@ double computeDistance(int x_seconds)
 
 double computeCurrentHeight(double height, double coveredDistance)
 {
-    if(height > coveredDistance)
-        return height - coveredDistance;
-    else
-        getGround();
-        return 0;
+    return height - coveredDistance;
 }
 
 void heightStatus(int x_seconds, double currentHeight)
 {
-    std::cout << "At " << x_seconds <<" seconds, the ball is at height: " << currentHeight << " meters.\n";
+    if(currentHeight > 0)
+        std::cout << "At " << x_seconds <<" seconds, the ball is at height: " << currentHeight << " meters.\n";
+    else if (currentHeight <= 0)
+        getGround();
 }
 
 int main()
