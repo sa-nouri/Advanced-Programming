@@ -7,7 +7,7 @@ int main()
     // char character {};
     std::cin >> character;
 
-    std::cout << "You Entered '" << character << "', which has ASCII code " << static_cast<int>(character) << ".\n";
-    
+    std::cout << "You Entered '" << character << "', which has ASCII code " << static_cast<int>(character) << ".\n"; // Explicit conversion
+    std::cout << "You Entered '" << character << "', which has ASCII code " << int {character} << ".\n"; // implicit conversion
     return 0;
 }
