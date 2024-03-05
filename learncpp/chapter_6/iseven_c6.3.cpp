@@ -26,6 +26,12 @@ int main()
 //     return (x % 2) == 0;
 // }
 
+// # Rewrite with operator !
+// bool isEven(int x)
+// {
+//     return !(x % 2);
+// }
+
 // int main()
 // {
 //     std::cout << "Enter an integer: ";
