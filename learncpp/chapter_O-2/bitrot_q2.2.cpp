@@ -14,6 +14,13 @@ std::bitset<4> rotl(std::bitset<4> bits)
 	return bits;
 }
 
+std::bitset<4> rotl(std::bitset<4> bits)
+{
+	// bits << 1 does the left shift
+	// bits >> 3 handle the rotation of the leftmost bit
+	return (bits<<1) | (bits>>3);
+}
+
 int main()
 {
 	std::bitset<4> bits1{ 0b0001 };
