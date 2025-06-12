@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/IMG">
+        <file>logo.png</file>
+    </qresource>
+    <qresource prefix="/CFG">
+        <file>vehicles.cfg</file>
+        <file>topology.cfg</file>
+    </qresource>
+</RCC>

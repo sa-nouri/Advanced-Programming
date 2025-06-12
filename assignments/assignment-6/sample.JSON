@@ -1,0 +1,16 @@
+‫thread_name : addition
+thread_type : basic_thread
+functor_type : cout
+functor_type : add
+	functor_type : cin 
+	functor_type : add 
+		functor_type : cin
+		functor_type : cin
+
+thread_name : multipication
+thread_type : singlerun_thread
+thread_priority:5
+functor_type : cout
+functor_type : mul
+	functor_type : cin 
+	functor_type : cin 
